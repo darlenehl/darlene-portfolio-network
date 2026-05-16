@@ -1,0 +1,14 @@
+# Netlify configuration file
+[build]
+  publish = "."
+  command = ""
+
+# Form handling
+[[redirects]]
+  from = "/success"
+  to = "/"
+  status = 200
+
+# Enable forms
+[dev]
+  framework = "html"
