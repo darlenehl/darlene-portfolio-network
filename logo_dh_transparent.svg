@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420">
+  <title>Logo D — Darlene Hernandez Data Analytics</title>
+
+  <defs>
+    <clipPath id="dstroke">
+      <path fill-rule="evenodd" d="
+        M 75,45 L 75,375 L 220,375 Q 368,375 368,210 Q 368,45 220,45 Z
+        M 148,118 L 148,302 L 212,302 Q 290,302 290,210 Q 290,118 212,118 Z
+      "/>
+    </clipPath>
+  </defs>
+
+  <!-- Planos clipeados al trazo de la D -->
+  <rect x="60" y="30" width="330" height="360" fill="#122338" clip-path="url(#dstroke)"/>
+  <polygon points="75,45  75,255  220,375  325,375  175,45" fill="#1A406B" clip-path="url(#dstroke)"/>
+  <polygon points="178,45  75,182  75,318  282,45" fill="#2568A0" clip-path="url(#dstroke)"/>
+  <polygon points="222,45  138,210  168,318  348,148  324,45" fill="#D97235" clip-path="url(#dstroke)"/>
+  <polygon points="268,52  192,252  220,345  352,215  334,88" fill="#3E9BBF" clip-path="url(#dstroke)"/>
+
+  <!-- Counter azul oscuro como capa encima -->
+  <path d="M 148,118 L 148,302 L 212,302 Q 290,302 290,210 Q 290,118 212,118 Z" fill="#0B1929"/>
+</svg>
