@@ -35,7 +35,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 nav.scrolled{background:rgba(9,64,116,.97);box-shadow:0 2px 24px rgba(0,0,0,.18)}
 .nav-logo{font-family:'Fraunces',serif;font-size:1.1rem;font-weight:500;color:var(--white);letter-spacing:.01em;text-decoration:none;display:flex;align-items:center;gap:.55rem}
 .nav-logo span{color:var(--orange)}
-.gallery-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease}
+.gallery-img img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .4s ease;background:rgba(255,255,255,.02)}
 .gallery-card:hover .gallery-img img{transform:scale(1.04)}
 .nav-right{display:flex;align-items:center;gap:2rem}
 .nav-links{display:flex;gap:1.75rem;list-style:none}
@@ -123,7 +123,7 @@ section{padding:6rem 5%}
 .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.5rem}
 .gallery-card{background:var(--white);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .25s,box-shadow .25s;border:1px solid rgba(28,43,58,.08)}
 .gallery-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(28,43,58,.12)}
-.gallery-img{height:200px;background:var(--navy);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.gallery-img{height:280px;background:var(--navy);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
 .gallery-img.g1{background:linear-gradient(135deg,#1C2B3A 0%,#2D4A6A 100%)}
 .gallery-img.g2{background:linear-gradient(135deg,#111B26 0%,#1C3550 100%)}
 .gallery-img.g3{background:linear-gradient(135deg,#1C2B3A 0%,#2D6A9F 100%)}
@@ -396,8 +396,8 @@ nav.scrolled{background:rgba(255,255,255,.99);box-shadow:0 2px 20px rgba(28,43,5
         <a href="#contact" class="btn-primary en">Let's talk about your project</a>
         <a href="#contact" class="btn-primary fr">Parlons de votre projet</a>
         <a href="#contact" class="btn-primary es">Hablemos de tu proyecto</a>
-        <a href="Darlene%20HERNANDEZ%20CV%20-%20Senior%20Data%20Analyst%20-%20Product%20Analytics%20%26%20BI.pdf" class="btn-ghost en" download>Download CV</a>
-        <a href="Darlene%20HERNANDEZ%20CV%20-%20Senior%20Data%20Analyst%20-%20Product%20Analytics%20%26%20BI.pdf" class="btn-ghost fr" download>Télécharger mon CV</a>
+        <a href="Darlene%20HERNANDEZ%20CV%20-%20Senior%20Data%20Analyst%20-%20Product%20Analytics%20%26%20BI%20-%20ENG.pdf" class="btn-ghost en" download>Download CV</a>
+        <a href="Darlene%20HERNANDEZ%20CV%20-%20Senior%20Data%20Analyst%20-%20Product%20Analytics%20%26%20BI%20-%20FR.pdf" class="btn-ghost fr" download>Télécharger mon CV</a>
         <a href="Darlene%20HERNANDEZ%20CV%20-%20Senior%20Data%20Analyst%20-%20Product%20Analytics%20%26%20BI.pdf" class="btn-ghost es" download>Descargar CV</a>
       </div>
 
@@ -591,7 +591,7 @@ nav.scrolled{background:rgba(255,255,255,.99);box-shadow:0 2px 20px rgba(28,43,5
 
       <div class="gallery-card" onclick="openLightbox(0)">
         <div class="gallery-img">
-          <img src="WhatsApp%20Image%202026-04-23%20at%2015.22.47.jpeg" alt="Casino floor interactive map dashboard">
+          <img src="MicroStrategy%20-%20Interactive%20Casino%20Floor%20Map.jpeg" alt="Casino floor interactive map dashboard">
           <div class="gallery-overlay"><div class="overlay-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div></div>
         </div>
         <div class="gallery-info">
@@ -609,7 +609,7 @@ nav.scrolled{background:rgba(255,255,255,.99);box-shadow:0 2px 20px rgba(28,43,5
 
       <div class="gallery-card" onclick="openLightbox(1)">
         <div class="gallery-img">
-          <img src="WhatsApp%20Image%202026-04-23%20at%2015.22.47%20(1).jpeg" alt="Market distribution city prioritization dashboard">
+          <img src="Tableau%20-%20Market%20Dist%20City%20Prioritization.jpeg" alt="Market distribution city prioritization dashboard">
           <div class="gallery-overlay"><div class="overlay-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div></div>
         </div>
         <div class="gallery-info">
@@ -619,7 +619,7 @@ nav.scrolled{background:rgba(255,255,255,.99);box-shadow:0 2px 20px rgba(28,43,5
             <span class="gallery-sector es">Análisis Inmobiliario</span>
             <span class="gallery-tool">Tableau</span>
           </div>
-          <p class="gallery-desc en">Market distribution & city prioritization matrix — listing segmentation by city segment</p>
+          <p class="gallery-desc en">Market distribution & city prioritization — listing segmentation by city segment</p>
           <p class="gallery-desc fr">Distribution de marché & matrice de priorisation — segmentation des annonces par segment de ville</p>
           <p class="gallery-desc es">Distribución de mercado & matriz de priorización — segmentación de listados por segmento de ciudad</p>
         </div>
@@ -627,7 +627,7 @@ nav.scrolled{background:rgba(255,255,255,.99);box-shadow:0 2px 20px rgba(28,43,5
 
       <div class="gallery-card" onclick="openLightbox(2)">
         <div class="gallery-img">
-          <img src="WhatsApp%20Image%202026-04-23%20at%2015.22.48.jpeg" alt="Market drivers pricing structure dashboard">
+          <img src="Tableau%20-%20Market%20Drivers%20Pricing%20Structure.jpeg" alt="Market drivers pricing structure dashboard">
           <div class="gallery-overlay"><div class="overlay-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div></div>
         </div>
         <div class="gallery-info">
@@ -645,25 +645,25 @@ nav.scrolled{background:rgba(255,255,255,.99);box-shadow:0 2px 20px rgba(28,43,5
 
       <div class="gallery-card" onclick="openLightbox(3)">
         <div class="gallery-img">
-          <img src="WhatsApp%20Image%202026-04-23%20at%2015.22.48%20(1).jpeg" alt="Price trend market evolution dashboard">
+          <img src="Power%20BI%20-%20Living%20Impact%20Brain%20Diagnostic%20Dashboard.png" alt="Living impact brain diagnostic ESG dashboard">
           <div class="gallery-overlay"><div class="overlay-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div></div>
         </div>
         <div class="gallery-info">
           <div class="gallery-meta">
-            <span class="gallery-sector en">Real Estate Analytics</span>
-            <span class="gallery-sector fr">Analytique immobilière</span>
-            <span class="gallery-sector es">Análisis Inmobiliario</span>
-            <span class="gallery-tool">Tableau</span>
+            <span class="gallery-sector en">ESG & Impact Investment</span>
+            <span class="gallery-sector fr">ESG & Investissement d'impact</span>
+            <span class="gallery-sector es">ESG e Inversión de Impacto</span>
+            <span class="gallery-tool">Power BI</span>
           </div>
-          <p class="gallery-desc en">Price trend & market evolution — rolling 12-month median rental price by city</p>
-          <p class="gallery-desc fr">Tendance des prix & évolution du marché — médiane mobile 12 mois par ville</p>
-          <p class="gallery-desc es">Tendencia de precios & evolución del mercado — precio de alquiler medio móvil de 12 meses por ciudad</p>
+          <p class="gallery-desc en">Living impact brain diagnostic — ESG and impact metrics portfolio assessment dashboard</p>
+          <p class="gallery-desc fr">Diagnostic cerveau d'impact — tableau de bord d'évaluation du portefeuille des métriques ESG et d'impact</p>
+          <p class="gallery-desc es">Diagnóstico del cerebro de impacto — panel de evaluación de cartera de métricas ESG e impacto</p>
         </div>
       </div>
 
       <div class="gallery-card" onclick="openLightbox(4)">
         <div class="gallery-img">
-          <img src="WhatsApp%20Image%202026-04-23%20at%2015.22.48%20(2).jpeg" alt="Membership player development reporting dashboard">
+          <img src="MicroStrategy%20-%20Membership%20Player%20Dev.jpeg" alt="Membership player development reporting dashboard">
           <div class="gallery-overlay"><div class="overlay-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div></div>
         </div>
         <div class="gallery-info">
@@ -681,7 +681,7 @@ nav.scrolled{background:rgba(255,255,255,.99);box-shadow:0 2px 20px rgba(28,43,5
 
       <div class="gallery-card" onclick="openLightbox(5)">
         <div class="gallery-img">
-          <img src="WhatsApp%20Image%202026-04-23%20at%2015.22.49%20(1).jpeg" alt="Daily operations executive insights dashboard">
+          <img src="MicroStrategy%20-%20Daily%20Operations%20Executive%20Insights.jpeg" alt="Daily operations executive insights dashboard">
           <div class="gallery-overlay"><div class="overlay-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div></div>
         </div>
         <div class="gallery-info">
